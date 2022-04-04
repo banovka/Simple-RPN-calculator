@@ -9,9 +9,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_RPNCalculator):
         super(MainWindow, self).__init__()
         self.setupUi(self)
 
-        #key_pressed = QtGui.QKeyEvent
-        #key_pressed.key.connect(key_pressed)
-
         self.input1.returnPressed.connect(self.input_value)
         self.input1.textEdited.connect(self.input_edit)
 
