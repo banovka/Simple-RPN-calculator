@@ -4,7 +4,6 @@ from PySide6.QtGui import QKeyEvent
 
 from layout import Ui_RPNCalculator
 
-
 class MainWindow(QtWidgets.QMainWindow, Ui_RPNCalculator):
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -54,7 +53,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_RPNCalculator):
         self.stack1.setText(self.stack0.text())
         self.stack0.setText(str(f))
         self.input1.clear()
-
 
 app = QtWidgets.QApplication(sys.argv)
 
