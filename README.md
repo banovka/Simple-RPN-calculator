@@ -14,5 +14,3 @@ It can only do addition, subtraction, multiplication and division. Don't expect 
 It might be useful in a school context to explain RPN.
 
 Have fun!
-
-Translated with www.DeepL.com/Translator (free version)
