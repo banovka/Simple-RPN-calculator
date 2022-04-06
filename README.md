@@ -9,7 +9,7 @@ pip install pyside6
 
 to fulfil the dependencies.
 
-It can only do addition, subtraction, multiplication and division. Don't expect too much...
+It can only do addition, subtraction, multiplication and division and a few basics more. Don't expect too much...
 
 It might be useful in a school context to explain RPN.
 
